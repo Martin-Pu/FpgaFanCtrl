@@ -1,4 +1,4 @@
-# FPGA Programming Project Proposal: FPGA Fan Controller
+# FPGA Programming Final Project Proposal: FPGA Fan Controller
 
 > Putz Martin (Martin-Pu) 
 
