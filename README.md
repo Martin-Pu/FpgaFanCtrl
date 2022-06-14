@@ -27,7 +27,7 @@ The project will be split into the Verilog Modules that will be needed to implem
   - A bus/communication interface to get Data from the ADC of the Temperature Sensor
   - (Depending on the Data Format of the ADC (Voltage or Temparture) an additional module to convert the Voltage to Temperature will be needed)
   - A module for the actuall control logic, that will generate a Duty Cycle according to the temperature
-  - A module to convert the Duty Cycle into an 25kHz PWM Signal, which will be the output to the fan
+  - A module to convert the Duty Cycle into an 25kHz PWM Signal (according to standard pc fan specification), which will be the output to the fan
 
 Testbenches will be created to test the functionality of the Code.
 
@@ -52,7 +52,7 @@ For hardwaretests a ciruit to support the ADC will be designed, built on a Bread
 ### Stretch Goals: 
 11. Implement a Seven Segment Display Output which will rotate between different status information (Temp., Duty Cycle, RPM (see next))
 12. Implement a Module to read out the Tach Signal from the fan, calculate the RPM and include it in the status information
-13. A state Machine can be implemented, to show the state of the Controller (e.g. High temperature, passive cooling, error, ...)
+13. A state Machine can be implemented, to show the state of the Controller (e.g. High temperature, passive cooling, error, ...) -> not really needed except for error states
 
 The most challenging Part of the project will be the implementation of the communication protokoll. In the worst case, a library can be used.
 
