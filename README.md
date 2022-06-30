@@ -38,20 +38,21 @@ For hardwaretests a ciruit to support the ADC will be designed, built on a Bread
 
 ## Tasks
 ### Core
-1. Choose & acquire Hardware
-2. Update Strategy and Tasks if necesarry
-3. Get information about the used Communication Protokoll and plan FPGA implementation
-4. Implement Commumunication Module
-(5. Implement Voltage to Temperature Module)
-6. Develop & Implement a simple controll algorithm which will output a fan duty cycle
-7. Implement the PWM Signal Generater Module
-8. Build Testbenches for the individual Modules
-9. Combine the Modules in one Programm
-10. Hardware Test the combined module
+1. Choose & acquire Hardware                                                              - done
+2. Update Strategy and Tasks if necesarry                                                 - done
+3. Research the SPI Protokoll and plan FPGA implementation                                - done
+4. Implement Commumunication Module                                                       - done
+5. Implement ADC to Voltage Module                                                        - done
+5. Implement Voltage to Temperature Module                                                - done
+6. Develop & Implement a simple controll algorithm which will output a fan duty cycle     - done
+7. Implement the PWM Signal Generater Module                                              - done                             
+8. Build Testbenches for the individual Modules                                           - for most not necessary
+9. Combine the Modules in one Programm                                                    - done
+10. Hardware Test the combined module                                                     - done 
 
 ### Stretch Goals: 
-11. Implement a Seven Segment Display Output which will rotate between different status information (Temp., Duty Cycle, RPM (see next))
-12. Implement a Module to read out the Tach Signal from the fan, calculate the RPM and include it in the status information
+11. Implement a Seven Segment Display Output which will rotate between different status information (Temp., Duty Cycle, RPM (see next)) - partly implemented
+12. Implement a Module to read out the Tach Signal from the fan, calculate the RPM and include it in the status information             - Too risky without Level shifter (Max IO input Voltage = )
 13. A state Machine can be implemented, to show the state of the Controller (e.g. High temperature, passive cooling, error, ...) -> not really needed except for error states
 
 The most challenging Part of the project will be the implementation of the communication protokoll. In the worst case, a library can be used.
@@ -82,4 +83,5 @@ Task 4-7 includes Time for Testbenches and testing
 Progress updates will be posted here.
 
 ## Resources
-So far no resources have been used. A verilog SPI/I2C Module could be used later.
+Resource on the circuit for the PT1000 Temperature Sensor
+https://www.aeq-web.com/pt1000-temperature-sensor-arduino-lm358-messwandler/?lang=en
