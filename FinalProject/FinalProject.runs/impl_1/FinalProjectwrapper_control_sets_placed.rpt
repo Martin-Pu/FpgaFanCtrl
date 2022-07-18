@@ -1,0 +1,100 @@
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.2 (win64) Build 3367213 Tue Oct 19 02:48:09 MDT 2021
+| Date         : Sun Jul 10 19:16:46 2022
+| Host         : MartinPC running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file FinalProjectwrapper_control_sets_placed.rpt
+| Design       : FinalProjectwrapper
+| Device       : xc7s50
+------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    22 |
+|    Minimum number of control sets                        |    22 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |   122 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    22 |
+| >= 0 to < 4        |    16 |
+| >= 4 to < 6        |     0 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |     0 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     1 |
+| >= 16              |     5 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              38 |           15 |
+| No           | No                    | Yes                    |             157 |           42 |
+| No           | Yes                   | No                     |              29 |            7 |
+| Yes          | No                    | No                     |              36 |           18 |
+| Yes          | No                    | Yes                    |              18 |            5 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++------------------------------+-----------------------------------------+----------------------------------+------------------+----------------+--------------+
+|         Clock Signal         |              Enable Signal              |         Set/Reset Signal         | Slice Load Count | Bel Load Count | Bels / Slice |
++------------------------------+-----------------------------------------+----------------------------------+------------------+----------------+--------------+
+|  SPIclkShifted               |                                         |                                  |                1 |              1 |         1.00 |
+|  SPIclkShifted               | SPI_Communication/ADCraw[11]_i_1_n_0    |                                  |                1 |              1 |         1.00 |
+|  SPIclkShifted               | SPI_Communication/ADCraw[12]_i_1_n_0    |                                  |                1 |              1 |         1.00 |
+|  SPIclkShifted               | SPI_Communication/ADCraw[2]_i_1_n_0     |                                  |                1 |              1 |         1.00 |
+|  SPIclkShifted               | SPI_Communication/ADCraw[4]_i_1_n_0     |                                  |                1 |              1 |         1.00 |
+|  SPIclkShifted               | SPI_Communication/ADCraw[13]_i_1_n_0    |                                  |                1 |              1 |         1.00 |
+|  SPIclkShifted               | SPI_Communication/ADCraw[10]_i_1_n_0    |                                  |                1 |              1 |         1.00 |
+|  SPIclkShifted               | SPI_Communication/ADCraw[6]_i_1_n_0     |                                  |                1 |              1 |         1.00 |
+|  SPIclkShifted               | SPI_Communication/ADCraw[5]_i_1_n_0     |                                  |                1 |              1 |         1.00 |
+|  SPIclkShifted               | SPI_Communication/ADCraw[8]_i_1_n_0     |                                  |                1 |              1 |         1.00 |
+|  SPIclkShifted               | SPI_Communication/ADCraw[3]_i_1_n_0     |                                  |                1 |              1 |         1.00 |
+|  SPIclkShifted               | SPI_Communication/ADCraw[9]_i_1_n_0     |                                  |                1 |              1 |         1.00 |
+|  SPIclkShifted               | SPI_Communication/ADCraw[7]_i_1_n_0     |                                  |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG               | SPI_Communication/SPIclk                | SPI_Communication/SPIclk_i_3_n_0 |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG               | D2P/PWM_i_1_n_0                         | D2P/PWM_i_3_n_0                  |                1 |              1 |         1.00 |
+|  SevenSegmentDriver/DispClk  |                                         |                                  |                1 |              2 |         2.00 |
+|  SevenSegmentDriver/OneHzclk |                                         |                                  |                3 |             15 |         5.00 |
+|  clk_IBUF_BUFG               | rT/RPMcounter0                          | rst_IBUF                         |                3 |             16 |         5.33 |
+|  clk_IBUF_BUFG               |                                         |                                  |               10 |             20 |         2.00 |
+|  SPIclkShifted               | SPI_Communication/ADCrawout[11]_i_1_n_0 |                                  |                6 |             24 |         4.00 |
+|  SPIclkShifted               |                                         | rst_IBUF                         |                7 |             29 |         4.14 |
+|  clk_IBUF_BUFG               |                                         | rst_IBUF                         |               42 |            157 |         3.74 |
++------------------------------+-----------------------------------------+----------------------------------+------------------+----------------+--------------+
+
+

@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Sun Jul 10 19:15:29 2022
+# Process ID: 13264
+# Current directory: C:/Vivado/FinalProject/FinalProject.runs/synth_1
+# Command line: vivado.exe -log FinalProjectwrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source FinalProjectwrapper.tcl
+# Log file: C:/Vivado/FinalProject/FinalProject.runs/synth_1/FinalProjectwrapper.vds
+# Journal file: C:/Vivado/FinalProject/FinalProject.runs/synth_1\vivado.jou
+# Running On: MartinPC, OS: Windows, CPU Frequency: 3600 MHz, CPU Physical cores: 6, Host memory: 34290 MB
+#-----------------------------------------------------------
+source FinalProjectwrapper.tcl -notrace
