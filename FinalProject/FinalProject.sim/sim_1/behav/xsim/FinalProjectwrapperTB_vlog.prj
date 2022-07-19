@@ -1,7 +1,7 @@
 # compile verilog/system verilog design source files
 sv xil_defaultlib  \
 "../../../../FinalProject.srcs/sources_1/new/FinalProject.sv" \
-"../../../../FinalProject.srcs/sim_1/new/ReadTachTB.sv" \
+"../../../../FinalProject.srcs/sim_1/new/FinalProjectWrapperTB.sv" \
 
 # compile glbl module
 verilog xil_defaultlib "glbl.v"

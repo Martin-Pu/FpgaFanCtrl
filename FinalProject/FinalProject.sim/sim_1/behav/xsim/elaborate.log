@@ -6,17 +6,4 @@ Starting static elaboration
 Pass Through NonSizing Optimizer
 WARNING: [VRFC 10-3091] actual bit length 25 differs from formal bit length 12 for port 'Voltage' [C:/Vivado/FinalProject/FinalProject.srcs/sources_1/new/FinalProject.sv:48]
 Completed static elaboration
-Starting simulation data flow analysis
-Completed simulation data flow analysis
-Time Resolution for simulation is 1ps
-Compiling module xil_defaultlib.SPIMCP3201
-Compiling module xil_defaultlib.ADCtoVoltage
-Compiling module xil_defaultlib.VoltageToTemperature
-Compiling module xil_defaultlib.TemperatureToDutyCycle
-Compiling module xil_defaultlib.DutyCycleToPWM
-Compiling module xil_defaultlib.readTACH
-Compiling module xil_defaultlib.SegDrive
-Compiling module xil_defaultlib.FinalProjectwrapper
-Compiling module xil_defaultlib.FinalProjectwrapperTB
-Compiling module xil_defaultlib.glbl
-Built simulation snapshot FinalProjectwrapperTB_behav
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel

@@ -3,5 +3,5 @@
 Oct 19 2021
 03:16:22
 C:/Vivado/FinalProject/FinalProject.sim/sim_1/behav/xsim/glbl.v,1634335545,verilog,,,,glbl,,uvm,,,,,,
-C:/Vivado/FinalProject/FinalProject.srcs/sim_1/new/ReadTachTB.sv,1658239824,systemVerilog,,,,FinalProjectwrapperTB,,uvm,,,,,,
-C:/Vivado/FinalProject/FinalProject.srcs/sources_1/new/FinalProject.sv,1658240667,systemVerilog,,C:/Vivado/FinalProject/FinalProject.srcs/sim_1/new/ReadTachTB.sv,,ADCtoVoltage;DutyCycleToPWM;FinalProjectwrapper;SPIMCP3201;SegDrive;TemperatureToDutyCycle;VoltageToTemperature;readTACH,,uvm,,,,,,
+C:/Vivado/FinalProject/FinalProject.srcs/sim_1/new/FinalProjectWrapperTB.sv,1658253075,systemVerilog,,,,FinalProjectwrapperTB,,uvm,,,,,,
+C:/Vivado/FinalProject/FinalProject.srcs/sources_1/new/FinalProject.sv,1658240667,systemVerilog,,C:/Vivado/FinalProject/FinalProject.srcs/sim_1/new/FinalProjectWrapperTB.sv,,ADCtoVoltage;DutyCycleToPWM;FinalProjectwrapper;SPIMCP3201;SegDrive;TemperatureToDutyCycle;VoltageToTemperature;readTACH,,uvm,,,,,,
