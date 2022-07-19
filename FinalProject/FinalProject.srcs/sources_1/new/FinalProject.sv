@@ -102,13 +102,13 @@ always @ (posedge(clk), posedge(rst)) begin
 end
 
 //  Sample ClockDivider( 1Hz ) + SPI MOSI Line Readout //
-logic [28:0] Samplecounter;
+logic [20:0] Samplecounter;
 logic SampleClock;                                                                  // Is also used as Variable for CS  
 
 always @ (posedge(SPIclkShifted) or posedge(rst)) begin                            
      if (rst) Samplecounter <= 0;
      else if (Samplecounter == (100000-1))  begin                                   // 100kHz / 100000 => 1Hz  
-                                                Samplecounter <= 0;                 // restart counting 
+                                                Samplecounter <= 0;                 // restart counting for 1Hz 
                                                 SampleClock <= 1;                   // turn on cs
                                             end
      else begin 

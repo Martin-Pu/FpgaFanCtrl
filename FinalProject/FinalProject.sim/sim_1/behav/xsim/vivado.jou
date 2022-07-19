@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Tue Jul 19 16:38:53 2022
+# Process ID: 1080
+# Current directory: C:/Users/MartinP/FpgaFanCtrl/FinalProject/FinalProject.sim/sim_1/behav/xsim
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15580 C:\Users\MartinP\FpgaFanCtrl\FinalProject\FinalProject.sim\sim_1\behav\xsim\FinalProjectwrapper_behav.wdb
+# Log file: C:/Users/MartinP/FpgaFanCtrl/FinalProject/FinalProject.sim/sim_1/behav/xsim/vivado.log
+# Journal file: C:/Users/MartinP/FpgaFanCtrl/FinalProject/FinalProject.sim/sim_1/behav/xsim\vivado.jou
+# Running On: MartinPC, OS: Windows, CPU Frequency: 3600 MHz, CPU Physical cores: 6, Host memory: 34290 MB
+#-----------------------------------------------------------
+start_gui
+open_wave_database {C:\Users\MartinP\FpgaFanCtrl\FinalProject\FinalProject.sim\sim_1\behav\xsim\FinalProjectwrapper_behav.wdb}
+close_sim

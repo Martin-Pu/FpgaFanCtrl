@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Tue Jul 19 16:39:02 2022
+# Process ID: 5916
+# Current directory: C:/Users/MartinP/FpgaFanCtrl/FinalProject
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18620 C:\Users\MartinP\FpgaFanCtrl\FinalProject\FinalProject.xpr
+# Log file: C:/Users/MartinP/FpgaFanCtrl/FinalProject/vivado.log
+# Journal file: C:/Users/MartinP/FpgaFanCtrl/FinalProject\vivado.jou
+# Running On: MartinPC, OS: Windows, CPU Frequency: 3600 MHz, CPU Physical cores: 6, Host memory: 34290 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/MartinP/FpgaFanCtrl/FinalProject/FinalProject.xpr
+update_compile_order -fileset sources_1

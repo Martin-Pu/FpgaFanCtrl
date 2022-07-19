@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="FinalProjectwrapperTB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="FinalProjectwrapperTB" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000000 ms"></ZoomStartTime>
+      <ZoomEndTime time="1,000.000000001 ms"></ZoomEndTime>
+      <Cursor1Time time="150.805438531 ms"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="114"></NameColumnWidth>
+      <ValueColumnWidth column_width="118"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="13" />
+   <wave_markers>
+      <marker time="10000000000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/FinalProjectwrapperTB/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FinalProjectwrapperTB/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FinalProjectwrapperTB/TACH" type="logic">
+      <obj_property name="ElementShortName">TACH</obj_property>
+      <obj_property name="ObjectShortName">TACH</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FinalProjectwrapperTB/MISO" type="logic">
+      <obj_property name="ElementShortName">MISO</obj_property>
+      <obj_property name="ObjectShortName">MISO</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FinalProjectwrapperTB/SPIclk" type="logic">
+      <obj_property name="ElementShortName">SPIclk</obj_property>
+      <obj_property name="ObjectShortName">SPIclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FinalProjectwrapperTB/CS" type="logic">
+      <obj_property name="ElementShortName">CS</obj_property>
+      <obj_property name="ObjectShortName">CS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FinalProjectwrapperTB/uut/SPI_Communication/SampleClock" type="logic">
+      <obj_property name="ElementShortName">SampleClock</obj_property>
+      <obj_property name="ObjectShortName">SampleClock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FinalProjectwrapperTB/PWM" type="logic">
+      <obj_property name="ElementShortName">PWM</obj_property>
+      <obj_property name="ObjectShortName">PWM</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FinalProjectwrapperTB/uut/SPI_Communication/SPIclkShifted" type="logic">
+      <obj_property name="ElementShortName">SPIclkShifted</obj_property>
+      <obj_property name="ObjectShortName">SPIclkShifted</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FinalProjectwrapperTB/uut/SPI_Communication/Samplecounter" type="array">
+      <obj_property name="ElementShortName">Samplecounter[20:0]</obj_property>
+      <obj_property name="ObjectShortName">Samplecounter[20:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/FinalProjectwrapperTB/led" type="array">
+      <obj_property name="ElementShortName">led[15:0]</obj_property>
+      <obj_property name="ObjectShortName">led[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FinalProjectwrapperTB/D1_AN" type="array">
+      <obj_property name="ElementShortName">D1_AN[3:0]</obj_property>
+      <obj_property name="ObjectShortName">D1_AN[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FinalProjectwrapperTB/D1_SEG" type="array">
+      <obj_property name="ElementShortName">D1_SEG[7:0]</obj_property>
+      <obj_property name="ObjectShortName">D1_SEG[7:0]</obj_property>
+   </wvobject>
+</wave_config>

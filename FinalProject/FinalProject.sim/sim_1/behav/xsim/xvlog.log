@@ -1,0 +1,34 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Vivado/FinalProject/FinalProject.srcs/sources_1/new/FinalProject.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FinalProjectwrapper
+INFO: [VRFC 10-311] analyzing module SPIMCP3201
+INFO: [VRFC 10-311] analyzing module ADCtoVoltage
+INFO: [VRFC 10-311] analyzing module VoltageToTemperature
+INFO: [VRFC 10-311] analyzing module TemperatureToDutyCycle
+INFO: [VRFC 10-311] analyzing module DutyCycleToPWM
+INFO: [VRFC 10-311] analyzing module readTACH
+INFO: [VRFC 10-311] analyzing module SegDrive
+WARNING: [VRFC 10-965] invalid size of integer constant literal [C:/Vivado/FinalProject/FinalProject.srcs/sources_1/new/FinalProject.sv:326]
+WARNING: [VRFC 10-965] invalid size of integer constant literal [C:/Vivado/FinalProject/FinalProject.srcs/sources_1/new/FinalProject.sv:328]
+WARNING: [VRFC 10-965] invalid size of integer constant literal [C:/Vivado/FinalProject/FinalProject.srcs/sources_1/new/FinalProject.sv:398]
+WARNING: [VRFC 10-965] invalid size of integer constant literal [C:/Vivado/FinalProject/FinalProject.srcs/sources_1/new/FinalProject.sv:408]
+WARNING: [VRFC 10-965] invalid size of integer constant literal [C:/Vivado/FinalProject/FinalProject.srcs/sources_1/new/FinalProject.sv:418]
+WARNING: [VRFC 10-965] invalid size of integer constant literal [C:/Vivado/FinalProject/FinalProject.srcs/sources_1/new/FinalProject.sv:428]
+WARNING: [VRFC 10-965] invalid size of integer constant literal [C:/Vivado/FinalProject/FinalProject.srcs/sources_1/new/FinalProject.sv:438]
+WARNING: [VRFC 10-965] invalid size of integer constant literal [C:/Vivado/FinalProject/FinalProject.srcs/sources_1/new/FinalProject.sv:448]
+WARNING: [VRFC 10-965] invalid size of integer constant literal [C:/Vivado/FinalProject/FinalProject.srcs/sources_1/new/FinalProject.sv:458]
+WARNING: [VRFC 10-965] invalid size of integer constant literal [C:/Vivado/FinalProject/FinalProject.srcs/sources_1/new/FinalProject.sv:468]
+WARNING: [VRFC 10-965] invalid size of integer constant literal [C:/Vivado/FinalProject/FinalProject.srcs/sources_1/new/FinalProject.sv:478]
+WARNING: [VRFC 10-965] invalid size of integer constant literal [C:/Vivado/FinalProject/FinalProject.srcs/sources_1/new/FinalProject.sv:488]
+WARNING: [VRFC 10-965] invalid size of integer constant literal [C:/Vivado/FinalProject/FinalProject.srcs/sources_1/new/FinalProject.sv:498]
+WARNING: [VRFC 10-965] invalid size of integer constant literal [C:/Vivado/FinalProject/FinalProject.srcs/sources_1/new/FinalProject.sv:508]
+WARNING: [VRFC 10-965] invalid size of integer constant literal [C:/Vivado/FinalProject/FinalProject.srcs/sources_1/new/FinalProject.sv:518]
+WARNING: [VRFC 10-965] invalid size of integer constant literal [C:/Vivado/FinalProject/FinalProject.srcs/sources_1/new/FinalProject.sv:528]
+WARNING: [VRFC 10-965] invalid size of integer constant literal [C:/Vivado/FinalProject/FinalProject.srcs/sources_1/new/FinalProject.sv:538]
+WARNING: [VRFC 10-965] invalid size of integer constant literal [C:/Vivado/FinalProject/FinalProject.srcs/sources_1/new/FinalProject.sv:548]
+WARNING: [VRFC 10-3380] identifier 'A' is used before its declaration [C:/Vivado/FinalProject/FinalProject.srcs/sources_1/new/FinalProject.sv:338]
+WARNING: [VRFC 10-3380] identifier 'A' is used before its declaration [C:/Vivado/FinalProject/FinalProject.srcs/sources_1/new/FinalProject.sv:339]
+WARNING: [VRFC 10-3380] identifier 'A' is used before its declaration [C:/Vivado/FinalProject/FinalProject.srcs/sources_1/new/FinalProject.sv:340]
+WARNING: [VRFC 10-3380] identifier 'A' is used before its declaration [C:/Vivado/FinalProject/FinalProject.srcs/sources_1/new/FinalProject.sv:341]
+WARNING: [VRFC 10-3380] identifier 'A' is used before its declaration [C:/Vivado/FinalProject/FinalProject.srcs/sources_1/new/FinalProject.sv:342]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Vivado/FinalProject/FinalProject.srcs/sim_1/new/ReadTachTB.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FinalProjectwrapperTB
