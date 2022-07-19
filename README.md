@@ -80,7 +80,8 @@ Task 4-7 includes Time for Testbenches and testing
 * Task 12 (4 hours)
 * Task 13 (8 hours) 
 
-Progress updates will be posted here.
+**The Project is Finished for now**
+You can find the report on my [webpage](https://martin-pu.github.io/fpga-programming/index.html)
 
 ## Resources
 Resource on the circuit for the PT1000 Temperature Sensor
