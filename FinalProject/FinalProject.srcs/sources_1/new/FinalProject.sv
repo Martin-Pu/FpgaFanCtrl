@@ -208,7 +208,7 @@ endmodule
 
 
 
-/////////////  Temperature to DutyCycle Conversion   /////////////
+////////////////////  Reading FAN RPM  ///////////////////////
 module readTACH(
     input Tach, clk, rst,           
     output logic [15:0] led,        // debug LED
@@ -244,7 +244,7 @@ endmodule
 
 
 
-////// SEVEN SEGMENT DRIVER ///////////
+/////////////// SEVEN SEGMENT DRIVER ///////////////
 module SegDrive(
     input [13:0] bin1,          // Rotating Value 1  Each of the Values is displayed for 1 second
     input [13:0] bin2,          // Rotating Value 2
